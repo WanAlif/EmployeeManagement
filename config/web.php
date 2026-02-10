@@ -21,7 +21,7 @@ $config = [
             
             // ADD THIS BLOCK - Enable pretty URLs
             'baseUrl' => '',
-        ],
+        ],       
         'cache' => [
             'class' => 'yii\caching\FileCache',
         ],
@@ -48,15 +48,15 @@ $config = [
             ],
         ],
         'db' => $db,
-        /*
-        'urlManager' => [
-        'enablePrettyUrl' => true,
-        'showScriptName' => false,  // Hide index.php
-        'enableStrictParsing' => false,
-        'rules' => [
-            ],
-        ],
-        */
+        
+        // 'urlManager' => [
+        // 'enablePrettyUrl' => false,
+        // 'showScriptName' => false,  // Hide index.php
+        // 'enableStrictParsing' => false,
+        // 'rules' => [
+        //     ],
+        // ],
+        
     ],
     'params' => $params,
 ];
